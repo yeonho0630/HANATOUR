@@ -23,7 +23,7 @@ print(pandas_DF.info())
 #  2   petal_length  150 non-null    float64
 #  3   petal_width   150 non-null    float64
 # dtypes: float64(4)
-# memory usage: 4.8 KB
+
 print(pandas_DF.describe())
 #        sepal_length  sepal_width  petal_length  petal_width
 # count    150.000000   150.000000    150.000000   150.000000
@@ -51,4 +51,4 @@ year_value = pandas_DF['sepal_width'].value_counts()
 print(year_value)
 
 print(pandas_DF.columns)
-# Index(['sepal_length', 'sepal_width', 'petal_length', 'petal_width'], dtype='object')
+# # Index(['sepal_length', 'sepal_width', 'petal_length', 'petal_width'], dtype='object')
